@@ -1,0 +1,25 @@
+------------------------------------------------------------------------------------------------------------------------
+Test Case 1 , Input Word : runs
+Output Morphologies : ['run+V+3sg+PRES', 'run+N+PL', 'run+N+PL', 'run+V+3sg+PRES']
+------------------------------------------------------------------------------------------------------------------------
+Test Case 2 , Input Word : ran
+Output Morphologies : ['run+V+PAST', 'run+V+PPART', 'r+AN+N', 'run+V+PAST']
+------------------------------------------------------------------------------------------------------------------------
+Test Case 3 , Input Word : running
+Output Morphologies : ['run+V+PROG', 'running+N', 'running+ADJ', 'run+ING+N', 'run+V+PROG']
+------------------------------------------------------------------------------------------------------------------------
+Test Case 4 , Input Word : friendly
+Output Morphologies : ['friendly+ADJ', 'friendly+N']
+------------------------------------------------------------------------------------------------------------------------
+Test Case 5 , Input Word : unfriendly
+Output Morphologies : ['unfriendly+ADJ', 'UN+friendly+ADJ']
+------------------------------------------------------------------------------------------------------------------------
+Test Case 6 , Input Word : unfriendliness
+Output Morphologies : ['unfriendliness+N', 'UN+friendliness+N', 'UN+friendly+NESS+N', 'unfriendly+NESS+N']
+------------------------------------------------------------------------------------------------------------------------
+Test Case 7 , Input Word : knife
+Output Morphologies : ['knife+N', 'knife+V+INF']
+------------------------------------------------------------------------------------------------------------------------
+Test Case 8 , Input Word : knives
+Output Morphologies : ['knife+N+PL', 'knife+N+PL']
+------------------------------------------------------------------------------------------------------------------------

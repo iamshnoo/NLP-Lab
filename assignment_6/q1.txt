@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------------
+Production rules for checking syntax of different types of english sentences :
+--------------------------------------------------------------------------------
+1. Declarative sentences:
+
+    S -> NP VP
+--------------------------------------------------------------------------------
+2. Imperative sentences:
+
+    S -> VP
+--------------------------------------------------------------------------------
+3. Yes-No questions:
+
+    S -> Aux NP VP
+--------------------------------------------------------------------------------
+4. Wh questions:
+
+    S -> Wh-NP VP
+    S -> Wh-NP Aux NP VP
+--------------------------------------------------------------------------------
+    NP -> Det Nominal
+    NP -> ProperNoun
+    Nominal->Noun
+    Nominal -> Noun Nominal
+    VP -> Verb
+    VP -> Verb NP
+    VP -> Verb NP PP
+    VP -> Verb PP
+    PP -> Preposition NP
+    Det -> 'a'
+    Det -> 'the'
+    Det -> 'an'
+    Noun ->
+    Verb ->
+    ProperNoun ->
+    Preposition ->
+--------------------------------------------------------------------------------

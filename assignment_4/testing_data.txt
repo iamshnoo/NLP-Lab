@@ -1,0 +1,320 @@
+
+    Twitter thread
+
+Sup, guys?
+
+After 3.5 years struggling, I’ve finally graduated with a bachelor’s degree and a master’s degree in Computer Science (CS), Artificial Intelligence track. I completed a total of 228 units, including 36 CS courses. I guess you can say that I know CS courses at Stanford pretty well.
+
+Through teaching and studying, I’ve had quite a few people asking me for advice on what classes to take. I realized that there’s a big gap between courses descriptions and reality. This post is an attempt to bridge the gap.
+
+In this post, you will find reviews + related materials on many AI courses at Stanford. I rank each course on difficulty from 1 being the easiest to 5 being the hardest. The difficulty level is based on how much time I spent on the course and how well I did in it.
+
+I also take the liberty to include some advice on how to navigate the CS major and a suggested 4-year plan for people interested in majoring in CS, AI track. Everything is this post is from my personal viewpoint and probably biased. It is NOT endorsed by my university or my employer. This list will be updated as I have more time.
+
+CS230, CS236, EE263,and CS336 are reviewed by Andrew Kondrich (Class of 2020) and edited by me.
+
+Q&A
+
+Is it difficult to study CS at Stanford?
+Stanford offers a strong liberal arts education, which means that you have a lot of freedom in designing your coursework. There are about 4000 courses offered each quarter for you to choose from. There are many different ways to fulfill a certain requirement and therefore, you can make your study as hard as you want.
+
+I know quite a few people who deliberately take courses below their level to get easy A’s. I also know people who make bad life choices and end up getting wrecked every quarter. When I say the latter, I mean me.
+
+How much time did you spend studying?
+If you just want to finish your bachelor’s in four years and get a decent software engineering job, you can probably do just fine studying for about 40 hrs/wk. If you want to learn as much as you can, squeeze both your bachelor’s and master’s degree into 4 years, or get into a respectable PhD program, there is no upper bound on how much time you should be studying.
+
+In my experience, if you’re a college student living on campus, you can easily work up to 80 hrs/wk while still maintaining a decent social life. You don’t have to commute. You don’t have to do grocery shopping, cooking, cleaning up. All your friends live nearby and you could hang out by doing homework together.
+
+What's the grading like?
+In most CS classes I’ve taken, about 30 - 50% of the students get an A. It means that if you get a B+, you’re pretty much average. Few get a C. There were two courses I did very, very poorly in, like failing to complete the most important assignment, but somehow ended up with a B-. I wondered what I had to do to fail.
+
+Of course, there are exceptions. Mykel Kochenderfer said in the first lecture that if you pay attention in class, he’d be happy to give you an A. 86% of students in his class get some form of A.
+
+A lot of people criticize the grade inflation at Stanford, but I think it’s nice in a way that it gets rid of the pressure to study for grade. It encouraged me to take difficult classes because I know that if I worked hard, I would make it through. I know it’s upsetting when you do really well in a class but still get an A just like everyone else, but who the hell cares about grades?
+
+What is it like to take graduate courses as an undergrad?
+At Stanford, CS courses with code number above 199 are graduate courses. It means that almost all AI courses are graduate-level. I don’t have the official statistics, but my impression is that about 70% of those enrolled in AI courses are graduate students.
+
+A friend told me he was disheartened and discouraged when taking courses with grad students because they seemed to be doing much better than he was. Also, grad students make the curve bad for undergrads, like no matter how hard my friend tried, his grades were always hovering around or below the median.
+
+For me, I don’t care if other people are doing better than me. I’m happy if I can learn something I didn’t know before.
+
+AI course reviews
+
+STATS 202: Data Mining and Analysis
+Textbook: An Introduction to Statistical Learning with Applications in R by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani (Springer, 1st ed., 2013)
+See course materials
+
+This is probably one of the most underrated AI courses at Stanford. I’ve seen so-called ML people snickering when the course is mentioned because it’s too basic for them. It’s true that it’s basic, but that’s exactly why it’s useful. The course gives a stress-free, mathematical yet intuitive explanation of important concepts such as bias, variance, hypothesis test, p-value, PCA, regularization. You will also be given an introduction to R. I don’t like R either but it’s undeniably useful.
+
+After taking the course, things that I’d studied in other “real” AI classes such as CS229, CS231N suddenly made a lot more sense. I’d highly recommend taking this course before taking other AI courses.
+
+Difficulty: 2
+
+CS109: Introduction to Probability for Computer Scientists
+Textbook: A First Course in Probability by Sheldon Ross (Pearson, 9th ed., 2014)
+See archived course materials (2016)
+
+You can’t do AI without knowing probability. Everything is a distribution. CS109 gives a comprehensive introduction into variables, variance, covariance, correlation, different distributions, bayesian methods, central theorems. It also dabbled into machine learning with logistic regression, naive bayes, MAP.
+
+I took CS109 in my first winter quarter. I knew nothing about AI back then so I didn’t appreciate the course enough. Looking back, I wish I had studied the materials inside out.
+
+It was unfortunate that I took the course with Ron Dror, who didn’t care much about the class and ended up giving uninspiring lectures. But we found Mehran Sahami’s old lecture videos and they were amazing. I’d highly recommend taking all the classes you can with Mehran Sahami. I’ve never taken a class with Chris Piech but I’ve section led for him once and everyone loved him.
+
+The prerequisite for CS109 is CS103, but you don’t need to take CS103 before taking CS109.
+
+Difficulty: 2-4, depending on how intuitive probability is for you.
+
+CS231N: Convolutional Neural Networks for Visual Recognition
+See video lectures (2017)
+See course materials
+
+Whether you’re into computer vision or not, CS231N will definitely help you become a much better AI researcher/practitioner. CS231N is hands down the best deep learning course I’ve come across. It balances theories with practices. The lecture notes are well written with visualizations and examples that explain well difficult concepts such as backpropagation, gradient descents, losses, regularizations, dropouts, batchnorm, etc. The assignments are fun and relevant. The instructors are all young and brilliant.
+
+Even though the course description includes CS229 as a prerequisite, I think a student would benefit a lot more if they take CS231N BEFORE taking CS229. You’ll also have a much better time in the class if you are familiar with Python and NumPy as there’s a fair amount of coding involved.
+
+Difficulty: 4
+
+CS224N: Natural Language Processing with Deep Learning
+See course materials
+
+This is a must-take course for anyone interested in NLP. It’s been taught by a professor I have a lot of admiration for: Chris Manning. The course is well organized and well taught. I was so impressed when I took the course and the professor mentioned a paper that was published last week. In Vietnam, we’re only taught things that were published at least a decade ago.
+
+The assignments, while useful, can sometimes be frustrating as training NLP models can take a long time. The final project can be open-ended and fun.
+
+I took the course before I took CS124: From Languages to Information and it was a bad decision. I missed out on a lot of details just because I didn’t know NLP basics. The course doesn’t list  CS231N as a prerequisite, but I think you’d do much better in the course if you’ve taken CS231N.
+
+Difficulty: 4
+
+CS229: Machine Learning
+See course materials
+
+Talking about CS229, I’m going to state an unpopular opinion that I didn’t like CS229 that much. The course is ambitious. It aims to cover a lot of things and you’d probably do well if you could work through all the materials, but you’d probably need to drop out of all other classes to even hope to do so in 10 weeks. The lecture notes are dense. The assignments are difficult, but still nowhere as difficult as the real exam. The median the year I took it was 46/100.
+
+The course says that its prerequisites include only linear algebra, basic probability and statistics, but my friend Debnil told me that it’s a lie. You need to be really good with linear algebra since the class is very mathy. If you take the course as your first introduction into machine learning, you’re in for a rough time.
+
+Difficulty: 5
+
+CS221: Artificial Intelligence: Principles and Techniques
+See archived course materials (2017)
+
+This is the class that got me interested in AI. I took it the same quarter I took CS229 and while I was crying my way out of CS229, I had a lot of fun making Pacman running away from the ghosts. The course covers fundamental AI concepts such as regression, clustering, gradient descent, nearest neighbors, path finding as well as basic RL concepts such as Monte Carlo, SARSA, Q-learning, policy/value iteration, etc.
+
+The assignments are interesting, practical, and manageable. The minimax algorithm I learned in the course helped land me an internship offer my sophomore year as I used it to solve a card game.
+
+Difficulty: 3
+
+CS228: Probabilistic Graphical Models: Principles and Techniques
+Textbook: Probabilistic Graphical Models: Principles and Techniques by Daphne Koller and Nir Friedman (MIT Press)
+See course materials
+
+When I told my friends I was about to take the course, they all looked at me in pity. Its reputation as one of the most difficult courses at Stanford keeps the class size relatively low, 150+ students compared to 700-900 students in most other AI classes.
+
+I struggled in the class but didn’t suffer. I found the materials interesting and important. It forced me to check many assumptions I never knew I was making while building ML models. Unlike most AI courses that introduce small concepts one by one or add one layer on top of another, CS228 tackles AI top down as it asks you to think about the relationships between different variables, how you represent those relationships, what independence you’re assuming, what exactly you’re trying to learn when you say machine learning.
+
+The course changes the way I approach AI. I can’t recommend the course highly enough.
+
+Difficulty: 5
+
+CS234: Reinforcement Learning
+See course materials
+
+It’s surprising that Stanford didn’t have a real RL class until Professor Emma Brunskill joined Stanford in 2017. I took the class the first year it was offered and was a bit disappointed. However, I revisited it this year and noticed that the course was much better organized.
+
+Given that there isn’t an alternative, if you’re interested in learning more about RL, you should definitely take the course. The assignments, in my experience, weren’t difficult but can be frustrating. The final project was hard for me because I didn’t know RL enough to come up with a novel yet still manageable idea, and I think it was the same for my friends.
+If you’re reluctant about taking the course, I’d recommend taking CS221 and CS238 to get a taste of RL.
+
+Difficulty: 4
+
+CS238: Decision Making under Uncertainty (AA 228)
+Textbook: Decision Making Under Uncertainty: Theory and Application by Mykel J. Kochenderfer et al. (MIT Lincoln Laboratory Series)
+See course materials
+
+This is an enjoyable class taught by Professor Mykel Kochenderfer, the kindest professor I’ve met at Stanford. That says a lot since 99% of the professors here are super nice.
+
+The class covers a lot of important concepts and doesn’t require you to go deep in any of them. It covers a bit of many other AI classes such as representation learning (CS228), model-free/model-based RL, Markov decision process (CS221, CS234), as well as new materials such as decision theory and POMDP.
+
+Mykel is the only CS professor I know who does freestyle teaching. He doesn’t use slides. He has a notebook that he writes on as he teaches. He has a great sense of humor which makes learning fun. His favorite book is A Million Random Digits with 100,000 Normal Deviates.
+
+Difficulty: 2
+
+CS224W: Machine Learning with Graphs
+Textbooks:
+
+  Networks, Crowds, and Markets: Reasoning About a Highly Connected World by David Easley and Jon Kleinberg
+  Network Science by Albert-László Barabási.
+
+
+See course materials
+
+For a long time, I’ve been talking about how graphs are among the most underrated concepts in machine learning, so I was deliriously happy when I found out that CS224W, previously called “Analysis of Networks”, was rebranded as a machine learning course.
+
+As graphs are getting more and more popular in machine learning research, I highly recommend this course. Even if you don’t intend to use graphs for machine learning, you should still take it. Graphs are beautiful and ubiquitous. The course materials are fascinating and practical. The teaching is excellent.
+
+It was the one course that I got the most out of: our final project for the course got into a workshop at NeurIPS and got into top 8 out of 1,444 projects worldwide for Ericsson Innovation Awards.
+
+Difficulty: 3
+
+CS246: Mining Massive Data Sets
+Textbook: Mining of Massive Datasets by Jure Leskovec, Anand Rajaraman, Jeff Ullman (Cambridge University Press)
+See course materials
+
+I’ve taken two classes with Professor Jure Leskovec and each time I was in awe of what an amazing teacher he is. As the name suggests, the course covers algorithms and techniques that we can use when handling large datasets, which will definitely come in handy when we do AI.
+
+I thought the materials were fun, but a friend told me he was bored for a couple of weeks because the materials for those week weren’t challenging enough. The course has some math, some algorithms, and some coding.
+
+Difficulty: 3
+
+CS230: Deep Learning
+See course materials
+
+This course follows the “Deep Learning Specialization” offered on Coursera. The MOOC content is supplemented by in-class lectures that recap the videos and/or provide extra explanation. Even though the class size isn’t that big – 200-300 students a quarter with a lot of SCPD students – be prepared to get little one-on-one help from the instructors. Students have mentioned feeling a bit disconnected from the course due to its pre-recorded flipped-classroom nature.
+
+Overall, it’s a decent course to get a good overview of application-oriented deep learning without math jargon. The teaching staff emphasizes creativity in the final project, which gives room for students to come up with novel applications and work through the entire pipeline of data cleaning/model development/demoing.
+
+Difficulty: 3
+
+CS236: Deep Generative Models
+See course materials
+
+According to Andrew, this is the best machine learning class he took at Stanford. Professor Stefano Ermon and his TAs were able to teach complex mathematical concepts with intuitive diagrams and explanations. The class covers three major approaches to generative models: VAEs, GANs, and the more recent yet absolutely brilliant flow-based models. It touches on difficult concepts such as how to evaluate a generative model. The class is also a great introduction to important concepts such as KL/JS divergences, MLE, Variational Inference, ELBO, Monte Carlo, etc.
+
+This class enforces that deep learning is fundamentally a choice of parameterization for representing data distributions. Because of the mathy nature of the course, to make the most out of the course, a background in linear algebra (e.g. Math 113/104) is recommended. CS228 (Probabilistic Graphical Models) would also help.
+
+This course relies heavily on guest lectures. The coding assignments are well written and use PyTorch.
+
+Difficulty: 4
+
+EE263: Introduction to Linear Dynamical Systems
+See course materials
+
+This class teaches you how to model the relationships between your data and desirable outputs using simple matrix-vector multiplications (y=Ax). It allows you to deep-dive into relevant linear algebra concepts and why they are useful.
+
+Because it is an EE course, some problem topics, such as controls and state estimation, may seem unfamiliar to CS students. It shows you that many of the problems we are trying to solve with deep/machine learning actually have a rich history in EE via these simple but incredibly powerful linear parameterizations.
+
+The linear algebra concepts can get really hard towards the end of the quarter, so come prepared with some linear algebra background (Math 104). Andrew’s friend described the class as teaching you “how the lego bricks come together to build machine learning”.
+
+Difficulty: 5
+
+CS336: Robot Perception and Decision-Making
+See course materials
+
+Similar to many other robotics courses at Stanford, including the CS223 series, this course covers state estimation and control techniques used to create embodied agents capable of understanding and interacting with the physical world. Throughout the course, you incrementally learn about the deep learning-based techniques that have improved performance on certain robotic tasks, such as learning depth from monocular RGB images or learning optimal policies for complex item manipulation.
+
+If you are interested in getting into robotic research, this is a great course to get a sense of what questions people are thinking about and how neural methods are being applied.
+
+Given its 300-level number, this course is not an introductory course to either robotics or deep learning. While I had the deep learning know-how, I wish I had taken something like CS223A (Introduction to Robotics) prior to this course.
+
+Difficulty: 4 with a robotics background, 5 without
+
+Some generic advice
+
+  Learn to use LaTeX early.
+  Complete your 4-year plan as early as possible, preferably in your first year.
+  Get the required courses out of the way early while your friends are still taking them. They become more annoying when you are the only upperclassman in the class.
+  Find a partner if the course allows. I wouldn’t have been able to complete my coursework without partners.
+  Take advantage of office hours.
+  Prerequisites are for reference only.
+  Don’t compete with other people since there will always be someone smarter than you at Stanford. Focus on how much you learn.
+  Don’t overload yourself with more than 2 difficult courses per quarter. A good schedule is to take 2-3 easy/medium courses with 2 difficult courses a quarter.
+  Don’t take classes for easy A’s. Sure, once in a while it’s nice to relax, but it’s lame taking all the classes because you want immaculate GPA.
+  Time management is everything.
+
+
+A suggested schedule
+Below is the schedule I wish I had followed now that I have the benefit of hindsight. I suggest that any student interested in AI takes as many math classes as you can, especially in linear algebra, probability, and optimization.
+
+Freshman
+Fall: CS106A/X
+Winter: CS106B/X, CS109
+Spring: CS103, CS107
+
+Sophomore
+Fall: CS221, CS131, STATS 202
+Winter: CS124, CS161, CS230
+Spring: CS231N, CS110
+
+Junior
+Fall: EE263
+Winter: CS228, CS224N
+Spring: CS224W
+
+Senior
+Fall: CS238, CS236
+Winter: CS246, CS234, EE364A
+Spring: Camp Stanford
+
+Some people asked how I did it in 3.5 years, so I’m attaching my 4-year plan. James just told me it looks repulsive. True.
+
+
+
+Good luck!
+
+
+  
+    [Hacker News discussion, Reddit discussion]
+
+I know you’re tired of hearing about that Google manifesto. Me too. I’ve read the memo. I’ve read Yonatan Zunger’s angry response and profoundly disagree with his opinion that the act of publishing it was “incredibly stupid and harmful”. I’ve read Megan McArdle’s essay and relate with her feeling of isolation as I’m often the only woman in an environment dominated by men. I’ve watched Damore’s interview and was struck by his sincerity and calmness even when the reporter was pushing him into corner.
+
+Throughout the entire process, I was deeply conflicted. As a woman in tech, I understand precisely what everyone is talking about. However, as a woman in tech who has experienced sexism to the point of accepting it as background noise, I have the feeling that we’ve been only addressing one side of the story. It’s the side where women are victims. I’m here to tell the story of how I, as a woman in tech, benefited from sexism and that men can be victims too.
+
+In Feburary 2015, I applied to be Section Leader, a position similar to Teaching Assistant, for the series of introductory courses into Computer Science (CS) at Stanford University. It was a coveted position as it’s a huge boost for your resume and many tech companies have exclusive outreach programs for section leaders. I didn’t think I’d be accepted. I had just started taking CS class a quarter ago. I was pretty shy and had a very strong accent since I’d only been in the US for a few months. I applied together a few friends, all male, mostly smarter, and much more confident than I was. But I was accepted, while all of my friends weren’t. I just thought that it was because I prepped a lot for the interviews and my preparation paid off.
+
+As I got more involved in the section leading community, I started noticing a pattern. My female friends, like I did, seemed to have better luck with getting into section leading. Still, I didn’t think much of it, until I volunteered to help out with the interviews myself.
+
+There were three interviewers for that day, and I was the only female. The first candidate, a male, wasn’t very good, so we all agreed that it was a reject. The second candidate, also a male, was pretty good but kind of nervous, so we agreed that he’d make a good section leader with more training, so “weak hire”. The third candidate, a female, didn’t seem to know the problem she was teaching very well and even offered wrong explanation. When we discussed her case, we all agreed on her shortcomings. But when we put down the scores, I noticed that my fellow interviewers gave her good scores with the recommendation “weak hire”.
+
+“Wait, do you guys think her performance is comparable to that of the previous guy?”
+
+“No, I think the previous guy was better,” they both said.
+
+“But you gave her the same scores you gave the other guy.”
+
+“Oh, did we?”
+
+They checked back their scores for the previous guy and, after some hesitation, lowered the scores they gave the female candidate.
+
+I’m not suggesting that my fellow interviewers were sexist. They weren’t even aware of their inconsistent judgment until I pointed it out. But this incident made me think that subconsciously, people are using another scale to judge women’s ability in tech. Nobody says it out loud because that’s no longer socially acceptable, but I couldn’t help but hearing it in my head: “She’s good for a woman. Even though she doesn’t do as well as that guy, she still gets the same scores because she’s in the women’s league.” I can’t help but thinking that I wouldn’t have been accepted into section leading if I weren’t a girl. And I feel bad for my guy friends who would have made excellent section leaders.
+
+That wasn’t the only occasion in which I felt like my gender might have something to do with my opportunities in tech. I’ve had a guy asking me to join his startup because it looks good to have a female co-founder. I’ve had the feeling that a company wants to hire me just because they want to diversify their office, like one day the all-dude team would look around and say: “What’s up with all this testostorone? We need a girl in here.” In school, I keep having guys asking me to join their projects because they thought I was cute. They didn’t say it at that time, but after we’d spent some time together they asked me out.
+
+Sexism isn’t making it harder for women to enter tech. From my personal experiences, sexism makes it even easier for women to enter tech. I understand that my experiences don’t generalize to that of other women. It’s possible that women are always judged differently. Sometimes it’s positive – people judge women on a more generous scale. Sometimes it’s negative – as people’ve talked about it at length. We need to be careful when encouraging affirmative action in tech to ensure it doesn’t reinforce the philosophy of treating women differently. Lowering your hiring standards for women can give people like me the lingering self doubt that maybe I wasn’t good enough. Worse, it gives many men reasons to believe that their female colleagues aren’t as good as them, and act accordingly.
+
+What we need to do is to make it easier for women to stay in tech. Even though I’m already in tech and love what I do, I sometimes have the feeling Megan McArdle had, the feeling that maybe I don’t belong here. I don’t like those 48 hour coding hackathons without sleep or shower. They are useless and detrimental to health. I don’t like a typical tech hangout, with beers, playing pool, and occasional jerking off jokes. I don’t like feeling like a piece of furniture to add to the company’s diversity. I don’t like my male teammates to think that I got to where they are only because I’m female. I don’t like the representation of female engineers on TV, always nerdy, unattractive, and without much of a social life.
+
+I don’t know how we can make it more fun to women in tech. Maybe it’s a chicken and egg problem, that we need to make tech friendlier to women to have more women in tech, but we also need more women in tech to make tech friendlier to women. Until we reach that point, there will be different opinions. There will be women upset because of the sexist treatment they receive, but there will also be men who are upset. There will be people with different points of view and different ideas of solutions. We should hear them out instead of shutting them down, the way Google fired James Damore or the Internet collectively shamed him.
+
+  
+    [Twitter thread, Hacker News discussion, Le Monde]
+
+I have a confession to make. I feel like a fraud.
+
+Every few days, I receive an email from either a friend, a friend of a friend, or a random company that asks me for my insights in Artificial Intelligence. These include entrepreneurs who have just sold their startups, Stanford MBA graduates who reject half a million dollar offers, venture capitalists, even major bank executives. A couple of years earlier, I wouldn’t even have the courage to approach those people, let alone dreaming about them wanting to talk to me.
+
+Their narratives vary among one of these options: “Connect me to people in AI?” “Come do AI with us?” “Advice on our AI products?” They talk about AI as if it’s the fountain of youth that everyone is jumping into and if you don’t you’d be old and left to die alone. They somehow think that I know how to get there.
+
+I get why people think that I’m an expert. I’ve spent years learning how to craft a perfect resume. Elite education? Check. Famous professors? Check. Big companies? Check. On top of that, I teach a Stanford course that sounds like the holy grail of all that’s so hot right now: TensorFlow for Deep Learning Research. A French company, during our interview, told me that they ran hundreds of resumes through their algorithm and mine miraculously landed on top.
+
+But the thing is, I’m not an expert. I’ve just finished the third year of my undergraduate degree. I haven’t got published on any journal. I’ve never attended any AI conference of any sort, mostly because I’m too poor to afford those. Okay, I lied. I attended one, but still.
+
+I always feel a tremendous pressure when I tell people I’m taking this or that Computer Science (CS) class and they go: “It must be so easy for you.” No, it’s not. I struggle just like any other student, if not more. I came to Stanford thinking I’d major in journalism or something social science-ish, then I took a CS class and thought it was fun. When I signed up for my first calculus class, the professor called me up to his office and told me I should take an easier class because I obviously didn’t have the prerequisites for this one.
+
+I used to love office hours. During my CS103, CS109, and CS221 classes, I practically camped at those office hours, never missed a chance to ask the TAs questions. But now it feels awkward because occasionally a TA or a fellow student would say something like: “Shouldn’t you already know this stuff? Don’t you teach a class on this?”
+
+The assumption that because I teach a course on TensorFlow, I must know everything about AI is tiring. I didn’t set out to teach the course because I was an expert in AI, or in TensorFlow for that matter. I wanted to have a class on it so I could learn with people who shared my interest. Since nobody else wanted to teach it, I had to.
+
+I was struggling through the entire course. There were many nights I couldn’t sleep because I was freaking out about what to show my students who already knew more than I did. More than half of my students were master’s and PhD students. Once, it was 9 am and I hadn’t been sleeping or eating for 24 hours and there was a bug in the demo I was planning on showing to my students that same day. “I’m a fraud,” I whined over the phone with my boyfriend who was at that time driving around New Zealand. He is, fortunately, one of the best coders and researchers I know. He calmed me down, told me to get some sleep, and promised to look at my code at the first Internet spot that he found. When I woke up 4 hours later, my demo was working. I wouldn’t have been able to go through the course without him, or Tessy, or David, or many other friends.
+
+I got a lot out of teaching the course. I knew so much more about TensorFlow since I had to anticipate every question my students might ask and googled the shit out of them. It gave me an excuse to reach out to people I admired, who kindly agreed to either proof-read my notes or give a guest lecture. It forced me to learn proper coding style, since I couldn’t bear to publish ugly codes that my students would laugh at. They probably still laughed at my code, but whatever.
+
+Like my friend Delenn said, I have jobs thrown at me. Big companies want to talk to me. Startup CEOs and CTOs go out of their way to meet me. I’m so spoiled that most of the times I don’t even read recruiters’ emails. It’s like the world has turned upside down. A couple of years ago, I was rejected for every single CS job I applied for. An anecdote I find funny is that a company rejected me when I interviewed with them. After my course got on the front page of HackerNews, they emailed me asking if I’d still be interested.
+
+Of course, I have improved over the last two years. But I’d be foolish to think that the change in recruiters’ attitude is due solely to my improvement. Many of my friends, who are way smarter than me and can unceremoniously kick my fuzzy ass in anything CS-related, struggle to find a decent job just because their resumes lack trending keywords. Yet many others, who barely understand basic concepts of machine learning, swim in job offers just because they’ve completed courses with fancy sounding names. It’s a phenomenon that Richard Socher, the dishevelled 30-something (or 20-something?) lecturer who just sold his company for several hundred millions yet still biked to campus, mentioned in his class: “Companies keep asking my students to drop out to work for them.”
+
+This thirst for AI has pushed all AI-related courses on Stanford to way over their capacity. CS224N: Natural Language Processing with Deep Learning had more than 700 students. CS231N: Convolutional Neural Networks for Visual Recognition had the same. According to Justin Johnson, co-instructor of CS231N, the class size is exponentially increasing. At the beginning of the quarter, instructors for both courses desperately scramble to find extra TAs. Even my course, first time offered, taught by an obscure undergraduate student, received 350+ applications for its 20 spots. Many of the students who took these courses aren’t even interested in the subject. They just take those courses because everyone is doing it.
+
+There are also people who capitalize on it. AI bootcamps, AI courses, AI conferences mushroom everywhere. Companies roll out expensive courses that teach things you can learn on your own. AI conferences charge thousands of dollars for a couple of days. Some of my friends get hundreds of thousands, even millions, of dollars to work on their AI startups – even if when they don’t even yet have a working prototype.
+
+Even though I’m one of the beneficiary of this AI craze, I can’t help but thinking this will burst. I don’t know how and when, but I have this belief that the system is currently being rigged in favor of people whose resumes dotted with fancy keywords like mine, and a rigged system can’t be sustainable. Maybe one day people would realize that many AI experts are just frauds. Maybe one day students would realize that their time would be better spent learning things they truly care about. Maybe one day I would be out of job and left to die alone on the sidewalk. Or maybe the AI robot that I build would destroy you all. Who knows?
+
+  

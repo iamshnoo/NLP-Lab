@@ -1,0 +1,46 @@
+
+Using a dictionary of  23683  unique words 
+and a total of  928012  words to predict the most probable word...
+
+List of viable candidates :
+--------------------------------------------------------------------------------
+           candidate           frequency       edit_distance
+--------------------------------------------------------------------------------
+                suit                 145                   1
+                suis                   4                   1
+                  si                   3                   1
+                  su                   2                   1
+                   i               22538                   2
+                   s                7723                   2
+                 sir                2764                   2
+                 sun                 237                   2
+                 sit                 214                   2
+                 sin                 159                   2
+                 six                  62                   2
+                 sum                  56                   2
+               suits                  32                   2
+                 sue                  27                   2
+                 sup                  20                   2
+                 oui                   6                   2
+                 qui                   6                   2
+                 sug                   4                   2
+                 sur                   4                   2
+                 sip                   3                   2
+                 siz                   3                   2
+                   u                   3                   2
+               sluic                   2                   2
+                 sub                   1                   2
+--------------------------------------------------------------------------------
+Given word :  sui
+Chosen candidate(s) :  suit
+
+--------------------------------------------------------------------------------
+
+Without considering any dictionary : 
+
+Given word :  sui
+Chosen candidate(s) :  ['i', 'oui', 'qui', 's', 'si', 'sin', 'sip', 'sir', 'sit', 'six', 'siz', 'sluic', 'su', 'sub', 'sue', 'sug', 'suis', 'suit', 'suits', 'sum', 'sun', 'sup', 'sur', 'u']
+
+
+--------------------------------------------------------------------------------
+

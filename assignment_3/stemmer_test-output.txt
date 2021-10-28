@@ -1,0 +1,137 @@
+
+Prefix Removal Stemmer Testing : 
+
+--------------------------------------------------------------------------------
+                Word       Advanced stem                          NLTK stem
+--------------------------------------------------------------------------------
+              reload                load                             reload
+             unhappy               happi                            unhappi
+          reactivate               activ                            reactiv
+         impertinent              pertin                           impertin
+          aerophobia          aerophobia                         aerophobia
+--------------------------------------------------------------------------------
+
+Naive Stemmer (Suffix Removal) Testing : 
+
+--------------------------------------------------------------------------------
+Step 1a Testing : 
+--------------------------------------------------------------------------------
+                Word          Naive stem           NLTK stem
+--------------------------------------------------------------------------------
+            caresses              caress              caress
+              ponies                poni                poni
+              caress              caress              caress
+                cats                 cat                 cat
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Step 1b Testing : 
+--------------------------------------------------------------------------------
+                Word          Naive stem           NLTK stem
+--------------------------------------------------------------------------------
+                feed                feed                feed
+              agreed                agre                agre
+           plastered             plaster             plaster
+                bled                bled                bled
+            motoring               motor               motor
+                sing                sing                sing
+           conflated             conflat             conflat
+            troubled              troubl              troubl
+               sized                size                size
+             hopping                 hop                 hop
+              tanned                 tan                 tan
+             falling                fall                fall
+             hissing                hiss                hiss
+              fizzed                fizz                fizz
+             failing                fail                fail
+              filing                file                file
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Step 1c Testing : 
+--------------------------------------------------------------------------------
+                Word          Naive stem           NLTK stem
+--------------------------------------------------------------------------------
+               happy               happi               happi
+                 sky                 sky                 sky
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Step 2 Testing : 
+--------------------------------------------------------------------------------
+                Word          Naive stem           NLTK stem
+--------------------------------------------------------------------------------
+          relational               relat               relat
+         conditional              condit              condit
+            rational              ration              ration
+             valenci              valenc              valenc
+           hesitanci               hesit               hesit
+           digitizer               digit               digit
+         conformabli             conform             conform
+           radicalli               radic               radic
+         differentli              differ              differ
+              vileli                vile                vile
+         analogousli              analog              analog
+      vietnamization             vietnam             vietnam
+         predication              predic              predic
+            operator                oper                oper
+           feudalism              feudal              feudal
+        decisiveness               decis               decis
+         hopefulness                hope                hope
+         callousness             callous             callous
+           formaliti              formal              formal
+         sensitiviti              sensit              sensit
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Step 3 Testing : 
+--------------------------------------------------------------------------------
+                Word          Naive stem           NLTK stem
+--------------------------------------------------------------------------------
+          triplicate             triplic             triplic
+           formative                form                form
+           formalize              formal              formal
+         electriciti              electr              electr
+           elctrical             elctric             elctric
+             hopeful                hope                hope
+            goodness                good                good
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Step 4 Testing : 
+--------------------------------------------------------------------------------
+                Word          Naive stem           NLTK stem
+--------------------------------------------------------------------------------
+             revival               reviv               reviv
+           allowance               allow               allow
+           inference               infer               infer
+            airliner              airlin              airlin
+          gyroscopic            gyroscop            gyroscop
+          adjustable              adjust              adjust
+          defensible              defens              defens
+            irritant               irrit               irrit
+         replacement              replac              replac
+          adjustment              adjust              adjust
+           dependent              depend              depend
+            adoption               adopt               adopt
+           homologou             homolog             homolog
+           communism              commun              commun
+            activate               activ               activ
+          angulariti             angular             angular
+          angulariti             angular             angular
+          homologous             homolog             homolog
+           effective              effect              effect
+           bowlerize              bowler              bowler
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Step 5a Testing : 
+--------------------------------------------------------------------------------
+                Word          Naive stem           NLTK stem
+--------------------------------------------------------------------------------
+             probate              probat              probat
+                rate                rate                rate
+               cease                ceas                ceas
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Step 5b Testing : 
+--------------------------------------------------------------------------------
+                Word          Naive stem           NLTK stem
+--------------------------------------------------------------------------------
+            controll             control             control
+                roll                roll                roll
+--------------------------------------------------------------------------------

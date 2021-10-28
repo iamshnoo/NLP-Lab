@@ -1,0 +1,26 @@
+{
+  "cSpell.words": [
+    "Targmax",
+    "Tmax",
+    "fdist",
+    "nltk",
+    "probs",
+    "rfind",
+    "sents",
+    "sklearn",
+    "sourcery",
+    "tagset",
+    "ugfdist",
+    "unhashable",
+    "viterbi"
+  ],
+  "python.analysis.extraPaths": [
+    "./assignment_1",
+    "./assignment_2",
+    "./assignment_3",
+    "./assignment_4",
+    "./assignment_5",
+    "./assignment_6",
+    "./assignment_7",
+  ]
+}
